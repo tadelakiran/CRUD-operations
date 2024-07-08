@@ -1,0 +1,32 @@
+button{
+  background-color: #a7c957;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#add_button {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 50px;
+  color: white;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  margin-top: 50px;
+  border: none;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: radial-gradient(circle, rgba(251,205,63,0.6755952380952381) 31%, rgba(252,70,107,1) 100%);
+
+}
+button:hover{
+  transform: scale(1.1);
+
+}
+#my_table
+{
+  margin-top: 50px
+
+}
